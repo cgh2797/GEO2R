@@ -48,6 +48,7 @@ fit <- lmFit(gset, design)
 cont.matrix <- makeContrasts(G1-G0, levels=design)
 fit2 <- contrasts.fit(fit, cont.matrix)
 fit2 <- eBayes(fit2, 0.01)
+# show top 10000 gene
 tT <- topTable(fit2, adjust="fdr", sort.by="B", number=10000)
 
 tT <- subset(tT, select=c("ID","adj.P.Val","P.Value","t","B","logFC","Gene.symbol","Gene.title"))
