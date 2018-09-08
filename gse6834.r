@@ -52,7 +52,11 @@ fit2 <- eBayes(fit2, 0.01)
 tT <- topTable(fit2, adjust="fdr", sort.by="B", number=10000)
 
 tT <- subset(tT, select=c("ID","adj.P.Val","P.Value","t","B","logFC","Gene.symbol","Gene.title"))
-write.table(tT, file=stdout(), row.names=F, sep="\t")
+# write.table(tT, file=stdout(), row.names=F, sep="\t")
+# stdout()
+
+write.table(tT,file="C:/result1.txt" ,row.names=F, sep="\t")
+# save as txt
 
 
 ################################################################
