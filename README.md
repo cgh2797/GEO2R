@@ -1,5 +1,5 @@
 # GEO2R
-Tool for gene data
+gene data analysis tool
 
 https://www.ncbi.nlm.nih.gov/geo/
 
