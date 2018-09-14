@@ -12,7 +12,6 @@ https://www.youtube.com/watch?v=EUPmGWS8ik0
 ## limma: Linear Models for Microarray and RNA-Seq Data User’s Guide
 https://bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/usersguide.pdf
 
-## GeneCards
-https://www.genecards.org/
+## [GeneCards](https://www.genecards.org/)
 
 ## [GeneMANIA](https://genemania.org/)
