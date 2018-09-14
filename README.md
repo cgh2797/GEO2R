@@ -15,5 +15,4 @@ https://bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/usersgui
 ## GeneCards
 https://www.genecards.org/
 
-## GeneMANIA
-https://genemania.org/
+## [GeneMANIA](https://genemania.org/)
