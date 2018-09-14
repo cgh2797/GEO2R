@@ -7,7 +7,7 @@ https://www.ncbi.nlm.nih.gov/geo/
 ## GEO2R
 https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html
 
-https://www.youtube.com/watch?v=EUPmGWS8ik0
+[youtube guide](https://www.youtube.com/watch?v=EUPmGWS8ik0)
 
 ## [limma](https://bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/usersguide.pdf)
 Linear Models for Microarray and RNA-Seq Data User’s Guide
