@@ -51,7 +51,7 @@ tT <- subset(tT, select=c("ID","adj.P.Val","P.Value","t","B","logFC","Gene.symbo
 # write.table(tT, file=stdout(), row.names=F, sep="\t")
 # stdout()
 
-write.table(tT,file="C:/gse6834_cerebellum.txt" ,row.names=F, sep="\t")
+write.table(tT,file="C:/gse6834_cerebellum_AD.txt" ,row.names=F, sep="\t")
 # save as txt
 
 ################################################################
