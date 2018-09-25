@@ -15,6 +15,9 @@ https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html
 ## Limma
 [Limma](https://bioconductor.org/packages/release/bioc/vignettes/limma/inst/doc/usersguide.pdf) : Linear Models for Microarray and RNA-Seq Data User’s Guide
 
+Limma is a package for the analysis of gene expression data arising from microarray or RNA-Seq
+technologies (Package for R)
+
 ## ETC
 ### [GeneCards](https://www.genecards.org/)
 
