@@ -1,12 +1,11 @@
 For "transient potassium channels : A therapeutic target for sensorimotor to cognitive disorders"
 
-# GEO2R
-gene data analysis tool
-
 ## GEO
 https://www.ncbi.nlm.nih.gov/geo/
 
 ## GEO2R
+gene data analysis tool
+
 https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html
 
 [youtube guide](https://www.youtube.com/watch?v=EUPmGWS8ik0)
