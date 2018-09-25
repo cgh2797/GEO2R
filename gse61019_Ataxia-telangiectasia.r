@@ -43,36 +43,40 @@ fit2 <- eBayes(fit2, 0.01)
 tT <- topTable(fit2, adjust="fdr", sort.by="B", number=250)
 
 tT <- subset(tT, select=c("ID","adj.P.Val","P.Value","t","B","logFC","Gene.symbol","Gene.title"))
-write.table(tT, file=stdout(), row.names=F, sep="\t")
+# write.table(tT, file=stdout(), row.names=F, sep="\t")
+# stdout()
+
+write.table(tT,file="C:/gse61019.txt" ,row.names=F, sep="\t")
+# save as txt
 
 
 ################################################################
 #   Boxplot for selected GEO samples
-library(Biobase)
-library(GEOquery)
+#library(Biobase)
+#library(GEOquery)
 
 # load series and platform data from GEO
 
-gset <- getGEO("GSE61019", GSEMatrix =TRUE, getGPL=FALSE)
-if (length(gset) > 1) idx <- grep("GPL10558", attr(gset, "names")) else idx <- 1
-gset <- gset[[idx]]
+#gset <- getGEO("GSE61019", GSEMatrix =TRUE, getGPL=FALSE)
+#if (length(gset) > 1) idx <- grep("GPL10558", attr(gset, "names")) else idx <- 1
+#gset <- gset[[idx]]
 
 # group names for all samples in a series
-gsms <- "0000111"
-sml <- c()
-for (i in 1:nchar(gsms)) { sml[i] <- substr(gsms,i,i) }
-sml <- paste("G", sml, sep="")  set group names
+#gsms <- "0000111"
+#sml <- c()
+#for (i in 1:nchar(gsms)) { sml[i] <- substr(gsms,i,i) }
+#sml <- paste("G", sml, sep="")  set group names
 
 # order samples by group
-ex <- exprs(gset)[ , order(sml)]
-sml <- sml[order(sml)]
-fl <- as.factor(sml)
-labels <- c("B","a")
+#ex <- exprs(gset)[ , order(sml)]
+#sml <- sml[order(sml)]
+#fl <- as.factor(sml)
+#labels <- c("B","a")
 
 # set parameters and draw the plot
-palette(c("#dfeaf4","#f4dfdf", "#AABBCC"))
-dev.new(width=4+dim(gset)[[2]]/5, height=6)
-par(mar=c(2+round(max(nchar(sampleNames(gset)))/2),4,2,1))
-title <- paste ("GSE61019", '/', annotation(gset), " selected samples", sep ='')
-boxplot(ex, boxwex=0.6, notch=T, main=title, outline=FALSE, las=2, col=fl)
-legend("topleft", labels, fill=palette(), bty="n")
+#palette(c("#dfeaf4","#f4dfdf", "#AABBCC"))
+#dev.new(width=4+dim(gset)[[2]]/5, height=6)
+#par(mar=c(2+round(max(nchar(sampleNames(gset)))/2),4,2,1))
+#title <- paste ("GSE61019", '/', annotation(gset), " selected samples", sep ='')
+#boxplot(ex, boxwex=0.6, notch=T, main=title, outline=FALSE, las=2, col=fl)
+#legend("topleft", labels, fill=palette(), bty="n")
