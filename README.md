@@ -1,4 +1,4 @@
-For ["transient potassium channels : A therapeutic target for sensorimotor to cognitive disorders"](https://www.frontiersin.org/articles/10.3389/fncel.2019.00265/full)
+For ["Transient Potassium Channels: Therapeutic Targets for Brain Disorders"](https://www.frontiersin.org/articles/10.3389/fncel.2019.00265/full)
 
 ## GEO
 https://www.ncbi.nlm.nih.gov/geo/
