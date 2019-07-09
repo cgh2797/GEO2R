@@ -3,7 +3,7 @@
 For ["Transient Potassium Channels: Therapeutic Targets for Brain Disorders"](https://www.frontiersin.org/articles/10.3389/fncel.2019.00265/full)
 
 ## GEO
-https://www.ncbi.nlm.nih.gov/geo/
+GEO is a public functional genomics data repository supporting MIAME-compliant data submissions. [link](https://www.ncbi.nlm.nih.gov/geo/)
 
 ## GEO2R
 gene data analysis tool
