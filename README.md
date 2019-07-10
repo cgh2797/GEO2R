@@ -10,7 +10,7 @@ geo2r is gene data analysis tool. [link](https://www.ncbi.nlm.nih.gov/geo/info/g
 
 [youtube guide](https://www.youtube.com/watch?v=EUPmGWS8ik0)
 
-## List of brain disease data here
+## List of brain disease data stored here
 alzheimer's disease, parkinson's disease, epilepsy,fragile x syndrome, tinnitus, chronic pain, ataxia
 
 ## example
