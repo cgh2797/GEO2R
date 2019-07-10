@@ -8,6 +8,8 @@ GEO is a public functional genomics data repository supporting MIAME-compliant d
 ## GEO2R
 geo2r is gene data analysis tool. [link](https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html)
 
+We can use GEO2R in online without installation. It is so easy to analyze gene data
+
 [youtube guide](https://www.youtube.com/watch?v=EUPmGWS8ik0)
 
 ## List of brain disease data stored here
