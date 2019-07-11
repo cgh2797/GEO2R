@@ -6,7 +6,7 @@ For ["Transient Potassium Channels: Therapeutic Targets for Brain Disorders"](ht
 GEO is a public functional genomics data repository supporting MIAME-compliant data submissions. [[link](https://www.ncbi.nlm.nih.gov/geo/)]
 
 ## GEO2R
-geo2r is gene data analysis tool. [link](https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html)
+geo2r is gene data analysis tool. [[link](https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html)]
 
 We can use GEO2R in website without installation. It is so easy to analyze gene data
 
