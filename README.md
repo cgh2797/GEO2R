@@ -12,7 +12,7 @@ We can use GEO2R in website without installation. It is so easy to analyze gene 
 
 [youtube guide](https://www.youtube.com/watch?v=EUPmGWS8ik0)
 
-## List of brain disease data stored here
+## List of brain disease data analyzed
 alzheimer's disease, parkinson's disease, epilepsy,fragile x syndrome, tinnitus, chronic pain, ataxia
 
 ## example
